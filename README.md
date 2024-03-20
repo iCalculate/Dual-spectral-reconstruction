@@ -13,7 +13,7 @@ The reconstruction algorithm for dual spectral reconstruction spectrometer inclu
 
 <p align="center">
   <a href="https://github.com/iCalculate/Dual-spectral-reconstruction/">
-    <img src="Figure/logo.png" alt="Logo" width="80" height="80">
+    <img src="Figure/logo.png" alt="Logo" width="158" height="223">
   </a>
   <h3 align="center">Dual-signal spectral reconstruction spectrometer</h3>
   <p align="center">
