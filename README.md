@@ -18,6 +18,7 @@ This script is designed for training deep neural networks to reconstruct spectra
 - Apply transformation and normalization on relaxation and responsivity signals for training.
 
 **Network Configuration**:
+![image](Figure/Fig3a_sub.png)
 - Choose 'trainlm' as the training function (Levenberg-Marquardt backpropagation).
 - Configure a neural network with multiple hidden layers.
 - Define input and output pre/post-processing functions.
