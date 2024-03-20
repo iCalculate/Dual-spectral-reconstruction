@@ -1,44 +1,109 @@
-**Spectral Reconstruction Deep Neural Networks Training Script**
 
-**Version**: 1.10.3  
-**Last Trained**: 6-Jan-2024 12:13:22  
-**Authors**: Xinchuan Du & Yi Cui  
-**Updated**: 20-Mar-2024 18:52:24  
 
-**Description**:
-This script is designed for training deep neural networks to reconstruct spectral data. It processes raw data signals including phase discriminator signal (pdsignal), envelope detector signal (edsignal), and target spectral data obtained from a commercial spectrometer.
+# **Dual-signal spectral reconstruction spectrometer** 
 
-**File Loading**:
-- Load `pdsignal_database.mat` for phase discriminator signal data.
-- Load `edsignal_database.mat` for envelope detector signal data.
-- Load `target_database.mat` for target spectral data.
+The reconstruction algorithm for dual spectral reconstruction spectrometer includes the training of reconstruction neural network, instrument control and spectral reconstruction
 
-**Input Signal Processing**:
-- Perform interpolation and normalization on the input signals (pdsignal_interp and edsignal_interp).
-- Apply transformation and normalization on relaxation and responsivity signals for training.
+<!-- PROJECT SHIELDS -->
 
-**Network Configuration**:
-![image](Figure/Fig3a_sub.png)
-- Choose 'trainlm' as the training function (Levenberg-Marquardt backpropagation).
-- Configure a neural network with multiple hidden layers.
-- Define input and output pre/post-processing functions.
-- Setup data division for training.
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
 
-**Performance Metrics**:
-- Use cross-entropy performance metric for training.
-- Plot network performance during training.
-- Calculate and display training, validation, and test performance.
+<!-- PROJECT LOGO -->
+<br />
 
-**Training and Saving**:
-- Train the neural network with input and target data.
-- Save the trained network in a .mat file with a timestamp.
+<p align="center">
+  <a href="https://github.com/shaojintian/Best_README_template/">
+    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  </a>
+  <h3 align="center">"Dual spectral </h3>
+  <p align="center">
+    一个"完美的"README模板去快速开始你的项目
+    <br />
+    <a href="https://github.com/shaojintian/Best_README_template">View the results</a>
+    ·
+    <a href="https://github.com/shaojintian/Best_README_template/issues">Questions for the Author</a>
+    ·
+    <a href="https://github.com/shaojintian/Best_README_template/issues">Deep development</a>
+  </p>
 
-**Simulation and Visualization**:
-- View the network architecture.
-- Generate a Simulink diagram for simulation or deployment.
+</p>
 
-**Plots**:
-- Plot performance, error histogram, and fitting results.
 
-**Readme**:
-This script trains a deep neural network for spectral reconstruction using raw data signals. It preprocesses and normalizes input signals, configures a neural network, trains the network, saves the trained model, evaluates performance metrics, and provides visualization options for analysis and deployment.
+
+
+## 目录
+
+- [上手指南](#上手指南)
+  - [开发前的配置要求](#开发前的配置要求)
+  - [安装步骤](#安装步骤)
+- [文件目录说明](#文件目录说明)
+- [开发的架构](#开发的架构)
+- [部署](#部署)
+- [使用到的框架](#使用到的框架)
+- [贡献者](#贡献者)
+  - [如何参与开源项目](#如何参与开源项目)
+- [版本控制](#版本控制)
+- [作者](#作者)
+- [鸣谢](#鸣谢)
+
+### Introduction to the Project
+
+
+
+### File Directory Description
+
+```
+filetree 
+├── README.md		# Project
+├── dual_spectral_reconstruction.mlx
+├── network_training.m
+├── edsignal.mat
+├── pdsignal.mat
+├── /Figure/
+│  ├── Fig3a_sub.png
+│  ├── Fig3d.png
+│  └── viewnet.png
+├── /instrument control/
+│  ├── Keithley.py
+│  ├── Keysight.py
+│  ├── LakeShore.py
+│  ├── StanfordResearch.py
+│  ├── Keithley2450_VppIsweep.py
+│  ├── Keithley2450_Isweep_v2.py
+│  └── Keithley2450_Vsweep_v1.py
+```
+
+
+
+### Hardware deployment
+
+请阅读[ARCHITECTURE.md](https://github.com/shaojintian/Best_README_template/blob/master/ARCHITECTURE.md) 查阅为该项目的架构。
+
+###  Script description
+
+
+
+### Results
+
+![Fig3a_sub](G:\Users\iCalculate\Desktop\Matlab\Dual_spectral_reconstruction\Figure\Fig3a_sub.png)
+
+### Contributors
+
+
+
+
+
+
+
+### Acknowledgements 
+
+We acknowledge the provision of infrastructure and assistance with Alibaba DAMO Academy for Discovery. We thank Z. Wang, Y. Yang, D. Xu, S. Deng, X. Wang, P. Li and C. Yang for the constructive discussions. This work was supported by the National Key Research and Development Program of China (2021YFA0718800), the National Natural Science Foundation of China (52222206, 52372177, U20A20244), Sichuan Science and Technology Program (2021JDTD0010) and Young Scientists Fund of the National Natural Science Foundation of China (52001059).
+
+### Copyright
+
+This project is under [MIT license](https://mit-license.org/)
+
