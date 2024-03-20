@@ -12,10 +12,10 @@ The reconstruction algorithm for dual spectral reconstruction spectrometer inclu
 <br />
 
 <p align="center">
-  <a href="https://github.com/shaojintian/Best_README_template/">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  <a href="https://github.com/iCalculate/Dual-spectral-reconstruction/">
+    <img src="Figure/logo.png" alt="Logo" width="80" height="80">
   </a>
-  <h3 align="center">"Dual spectral </h3>
+  <h3 align="center">Dual-signal spectral reconstruction spectrometer</h3>
   <p align="center">
     一个"完美的"README模板去快速开始你的项目
     <br />
