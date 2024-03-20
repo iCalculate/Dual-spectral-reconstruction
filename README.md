@@ -31,20 +31,16 @@ The reconstruction algorithm for dual spectral reconstruction spectrometer inclu
 
 
 
-## 目录
+## Content
 
-- [上手指南](#上手指南)
-  - [开发前的配置要求](#开发前的配置要求)
-  - [安装步骤](#安装步骤)
-- [文件目录说明](#文件目录说明)
-- [开发的架构](#开发的架构)
-- [部署](#部署)
-- [使用到的框架](#使用到的框架)
-- [贡献者](#贡献者)
-  - [如何参与开源项目](#如何参与开源项目)
-- [版本控制](#版本控制)
-- [作者](#作者)
-- [鸣谢](#鸣谢)
+- [Introduction to the Project](#Introduction to the Project)
+- [File Directory Description](#File Directory Description)
+- [Hardware deployment](#Hardware deployment)
+- [Script description](#Script description)
+- [Results](#Results)
+- [Contributors](#Contributors)
+- [Acknowledgements](#Acknowledgements)
+- [Copyright](#Copyright)
 
 ### Introduction to the Project
 
@@ -79,7 +75,7 @@ filetree
 
 请阅读[ARCHITECTURE.md](https://github.com/shaojintian/Best_README_template/blob/master/ARCHITECTURE.md) 查阅为该项目的架构。
 
-###  Script description
+### Script description
 
 
 
