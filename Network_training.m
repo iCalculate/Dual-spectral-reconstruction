@@ -48,11 +48,11 @@ net_target = target_database;
 trainFcn = 'trainlm';  % Levenberg-Marquardt backpropagation.
 
 % Create a Fitting Network
-hiddenLayer1Size = 8000;
-hiddenLayer2Size = 16000;
-hiddenLayer3Size = 16000;
-hiddenLayer4Size = 8000;
-hiddenLayer5Size = 4000;
+hiddenLayer1Size = 4000;
+hiddenLayer2Size = 6000;
+hiddenLayer3Size = 4000;
+hiddenLayer4Size = 3000;
+hiddenLayer5Size = 2000;
 net = fitnet([hiddenLayer1Size, hiddenLayer2Size,...
               hiddenLayer3Size, hiddenLayer4Size,...
               hiddenLayer5Size],  trainFcn);
@@ -85,7 +85,7 @@ net.plotFcns = {'plotperform','plottrainstate','ploterrhist', ...
 % Train the Network
 [net,tr] = train(net,net_input,net_target);
 % Save the trained network
-save(['.\traindNet_[',datestr(datetime('now')),'].mat'], 'net');
+save(['.\traindNet_[',datestr(datetime('today')),'].mat'], 'net');
 
 % Recalculate Training, Validation and Test Performance
 trainTargets = net_target .* tr.trainMask{1};
