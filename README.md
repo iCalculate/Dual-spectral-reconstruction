@@ -17,8 +17,8 @@ The reconstruction algorithm for dual spectral reconstruction spectrometer inclu
   </a>
   <h3 align="center">Dual-signal spectral reconstruction spectrometer</h3>
   <p align="center">
-    Pioneering reconstruction strategy to realize nm-resolution microspectrometerr
-    <br />P
+    Pioneering reconstruction strategy to realize nm-resolution microspectrometer
+    <br />
     <a href="https://github.com/shaojintian/Best_README_template">View the results</a>
     ·
     <a href="https://github.com/shaojintian/Best_README_template/issues">Questions for the Author</a>
