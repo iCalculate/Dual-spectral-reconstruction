@@ -5,9 +5,9 @@ The reconstruction algorithm for dual spectral reconstruction spectrometer inclu
 <!-- PROJECT SHIELDS -->
 
 ![Github stars](https://img.shields.io/github/stars/iCalculate/Dual-spectral-reconstruction.svg)
-[![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
+[![Contributors][contributors-shield]][contributors-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
 
@@ -26,7 +26,7 @@ The reconstruction algorithm for dual spectral reconstruction spectrometer inclu
     ·
     <a href="https://github.com/iCalculate/Dual-spectral-reconstruction/issues">Questions for the Author</a>
     ·
-    <a href="hhttps://github.com/iCalculate/Dual-spectral-reconstruction//issues">Deep development</a>
+    <a href="hhttps://github.com/iCalculate/Dual-spectral-reconstruction/issues">Deep development</a>
   </p>
 
 </p>
@@ -109,13 +109,13 @@ This project is under [MIT license](https://mit-license.org/)
 <!-- links -->
 
 [your-project-path]:iCalculate/Dual-spectral-reconstruction
-[contributors-shield]: https://img.shields.io/github/contributors/iCalculate/Dual-spectral-reconstruction.svg?style=flat-square
+[contributors-shield]: https://img.shields.io/github/contributors/iCalculate/Dual-spectral-reconstruction.svg?
 [contributors-url]: https://github.com/iCalculate/Dual-spectral-reconstruction/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/iCalculate/Dual-spectral-reconstruction.svg?style=flat-square
+[forks-shield]: https://img.shields.io/github/forks/iCalculate/Dual-spectral-reconstruction.svg?
 [forks-url]: https://github.com/iCalculate/Dual-spectral-reconstruction/network/members
-[stars-shield]: https://img.shields.io/github/stars/iCalculate/Dual-spectral-reconstruction.svg?style=flat-square
+[stars-shield]: https://img.shields.io/github/stars/iCalculate/Dual-spectral-reconstruction.svg?
 [stars-url]: https://github.com/iCalculate/Dual-spectral-reconstruction/stargazers
-[issues-shield]: https://img.shields.io/github/issues/iCalculate/Dual-spectral-reconstruction.svg?style=flat-square
+[issues-shield]: https://img.shields.io/github/issues/iCalculate/Dual-spectral-reconstruction.svg?
 [issues-url]: https://img.shields.io/github/issues/iCalculate/Dual-spectral-reconstruction.svg
-[license-shield]: https://img.shields.io/github/license/iCalculate/Dual-spectral-reconstruction.svg?style=flat-square
+[license-shield]: https://img.shields.io/github/license/iCalculate/Dual-spectral-reconstruction.svg?
 [license-url]: https://github.com/iCalculate/Dual-spectral-reconstruction/blob/main/LICENSE
