@@ -45,7 +45,7 @@ The reconstruction algorithm for dual spectral reconstruction spectrometer inclu
 - [Copyright](#copyright)
 
 ### Introduction to the Project
-The repository showcases the relevant scripts for the dual-signal spectral reconstruction spectrometer, with detailed experimental procedures and physical analysis documented in the research report. The code in the repository primarily demonstrates the training process of the deep neural network used for spectral reconstruction ([network_training.m](https://github.com/iCalculate/Dual-spectral-reconstruction/blob/main/network_training.m)), as well as how to perform spectral reconstruction based on the trained network ([dual_spectral_reconstruction.mlx](https://github.com/iCalculate/Dual-spectral-reconstruction/blob/main/dual_spectral_reconstruction.mlx)).　The repository also includes the open-source control command ([instrument control](https://github.com/iCalculate/Dual-spectral-reconstruction/tree/main/instrument%20control)) set for the instrumental equipment required in the experiments, as well as the code for automated experimental operations.
+The repository showcases the relevant scripts for the dual-signal spectral reconstruction spectrometer, with detailed experimental procedures and physical analysis documented in the research report. The code in the repository primarily demonstrates the training process of the deep neural network used for spectral reconstruction `network_training.m`, as well as how to perform spectral reconstruction based on the trained network `dual_spectral_reconstruction.mlx`.　The repository also includes the open-source control command `instrument control` set for the instrumental equipment required in the experiments, as well as the code for automated experimental operations.
 
 ### File Directory Description
 
@@ -75,11 +75,16 @@ The master in this experiment is a PC, and the slaver is a Xilinx ZYNQ 7000 FPGA
 
 ### Network Training
 
+Running `network_training.m` trains a deep neural network based on the training dataset. During this process, the network-related parameters are initialized, and initial weights are assigned to the network. Then, you can use commands to carry out network training or display a schematic diagram of the network structure.
+```matlab
+[net,tr] = train(net,net_input,net_target);
+view(net);
+```
 ![viewnet](Figure/viewnet.png)
 
 ### Spectrometer Reconstruction
 
-Run the script dual_spectral_reconstruction.mlx to communicate with the FPGA through the serial port and control the FPGA for spectrometer control and data sampling. After sampling is completed, the data is sent back to the master, and the data for PD and ED are plotted. The results are as follows:
+Run the script `dual_spectral_reconstruction.mlx` to communicate with the FPGA through the serial port and control the FPGA for spectrometer control and data sampling. After sampling is completed, the data is sent back to the master, and the data for PD and ED are plotted. The results are as follows:
 ```matlab
 [pdsignal, edsignal] = decode_rawMat(rawdataMatrix); 
 ```
