@@ -26,7 +26,7 @@ The reconstruction algorithm for dual spectral reconstruction spectrometer inclu
     ·
     <a href="https://github.com/iCalculate/Dual-spectral-reconstruction/issues">Questions for the Author</a>
     ·
-    <a href="hhttps://github.com/iCalculate/Dual-spectral-reconstruction/issues">Deep development</a>
+    <a href="https://github.com/iCalculate/Dual-spectral-reconstruction/issues">Deep development</a>
   </p>
 
 </p>
