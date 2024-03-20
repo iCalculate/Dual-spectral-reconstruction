@@ -118,4 +118,4 @@ This project is under [MIT license](https://mit-license.org/)
 [issues-shield]: https://img.shields.io/github/issues/iCalculate/Dual-spectral-reconstruction.svg?style=flat-square
 [issues-url]: https://img.shields.io/github/issues/iCalculate/Dual-spectral-reconstruction.svg
 [license-shield]: https://img.shields.io/github/license/iCalculate/Dual-spectral-reconstruction.svg?style=flat-square
-[license-url]: https://github.com/iCalculate/Dual-spectral-reconstruction/blob/main/LICENSE.txt
+[license-url]: https://github.com/iCalculate/Dual-spectral-reconstruction/blob/main/LICENSE
