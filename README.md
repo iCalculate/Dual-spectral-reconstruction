@@ -6,11 +6,7 @@ The reconstruction algorithm for dual spectral reconstruction spectrometer inclu
 
 <!-- PROJECT SHIELDS -->
 
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
+![Github stars](https://img.shields.io/github/stars/iCalculate/Dual-spectral-reconstruction.svg)
 
 <!-- PROJECT LOGO -->
 <br />
