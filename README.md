@@ -10,6 +10,7 @@ The reconstruction algorithm for dual spectral reconstruction spectrometer inclu
 [![Contributors][contributors-shield]][contributors-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
+![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2FiCalculate%2FDual-spectral-reconstruction&countColor=%23970212&style=plastic&labelStyle=lower)
 
 <!-- PROJECT LOGO -->
 <br />
