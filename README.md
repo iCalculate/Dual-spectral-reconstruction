@@ -76,7 +76,7 @@ The master in this experiment is a PC, and the slaver is a Xilinx ZYNQ 7000 FPGA
 
 ### Network Training
 
-Running `network_training.m` trains a deep neural network based on the training dataset. During this process, the network-related parameters are initialized, and initial weights are assigned to the network. Then, you can use commands to carry out network training or display a schematic diagram of the network structure.
+Running `network_training.m` trains a deep neural network based on the training dataset. During this process, the network-related parameters are initialized, and initial weights are assigned to the network. The trained network used in this article is obtained from [here](https://drive.google.com/file/d/1jLLEc5U4cwWMceic5N_bjX6VMVlgPXa4/view?usp=drive_link) for reference only. Then, you can use commands to carry out network training or display a schematic diagram of the network structure.
 ```matlab
 [net,tr] = train(net,net_input,net_target);
 view(net);
